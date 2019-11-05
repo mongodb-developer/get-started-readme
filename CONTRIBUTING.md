@@ -1,6 +1,9 @@
-# Contribute to the Quickstart project 
 
-This page contains information about contributing to Quickstart Docker images.
+# Contributing to the Quickstart project 
+
+First off, thanks for taking the time to contribute! 🎉
+
+The following is a set of guidelines for contributing to the Quickstart projects. These are mostly guidelines, not rules.
 
 ## Project Structure
 
