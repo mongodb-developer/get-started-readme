@@ -1,9 +1,9 @@
 
-# Contributing to the Quickstart project 
+# Contributing to the Get-Started project 
 
 First off, thanks for taking the time to contribute! 🎉
 
-The following is a set of guidelines for contributing to the Quickstart projects. These are mostly guidelines, not rules.
+The following is a set of guidelines for contributing to the Get-Started projects. These are mostly guidelines, not rules.
 
 ## Project Structure
 
@@ -17,7 +17,7 @@ A `README.md` file to provide information related to the environment. Should inc
       * Prerequisites       
       * How to start a Docker image with development prerequisites installed
       
-  * Links to relevant MongoDB Blog Quickstart series posts
+  * Links to relevant MongoDB Blog Quick Start series posts (if any)
   * Links to relevant MongoDB driver reference documentation 
   * Links to MongoDB Atlas free-tier sign-up 
 
@@ -34,7 +34,7 @@ Code examples should include:
 
 Code examples naming convention: 
 
-  * Script name should either be: `Quickstart.ext`, `quickstart.ext` or `quick_start.ext` based on language specific file convention. 
+  * Script name should either be: `Getstarted.ext`, `getstarted.ext` or `get_started.ext` based on language specific file convention. 
 
 ### Dockerfile 
 

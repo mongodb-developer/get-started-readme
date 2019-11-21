@@ -1,14 +1,14 @@
-# Quickstart README
+# Get-Started README
 
-Repository for meta files related to the quickstart code example series
+Repository for meta files related to the get-started code example series
 
-## List of Quickstart repositories: 
+## List of Get-Started repositories: 
 
-* [quickstart-csharp](https://github.com/mongodb-developer/quickstart-csharp)
-* [quickstart-go](https://github.com/mongodb-developer/quickstart-go)
-* [quickstart-java](https://github.com/mongodb-developer/quickstart-java)
-* [quickstart-nodejs](https://github.com/mongodb-developer/quickstart-nodejs)
-* [quickstart-scala](https://github.com/mongodb-developer/quickstart-scala)
+* [get-started-csharp](https://github.com/mongodb-developer/get-started-csharp)
+* [get-started-go](https://github.com/mongodb-developer/get-started-go)
+* [get-started-java](https://github.com/mongodb-developer/get-started-java)
+* [get-started-nodejs](https://github.com/mongodb-developer/get-started-nodejs)
+* [get-started-scala](https://github.com/mongodb-developer/get-started-scala)
 
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for contributing guidelines. 
