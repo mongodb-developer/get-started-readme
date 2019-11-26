@@ -40,6 +40,6 @@ Generally there are two ways to modify the sample code:
 
 #### 2. How can I connect the example code to MongoDB running on my machine ?
 
-You can connect to a local `mongod` from the `get-started` Docker container by setting `MONGODB_URL` to `mongodb://host.docker.internal:27017/`. 
+You can connect to a local `mongod` from the `get-started` Docker container by setting `MONGODB_URI` to `mongodb://host.docker.internal:27017/`. 
 
 
