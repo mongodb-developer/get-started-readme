@@ -29,15 +29,17 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for contributing guidelines.
 
 ## Frequently Asked Questions 
 
-1. How do I modify the sample code ?
+#### 1. How do I modify the sample code ?
 
 Generally there are two ways to modify the sample code:
 
-  * Modify the code within the Docker container. Before the execution of the code sample, you could alter the script using built-in editor (i.e. nano/vim). *Please note* that any modification inside of the container will be wiped when the container is terminated. 
-  * Mount the host filesystem into the Docker container as a volume (see [Use Bind Mounts](https://docs.docker.com/storage/bind-mounts/)). For example in macOS, when launching the container you can include `-v /mypath:/myvolume` to make `/mypath` from the host available in the container as `/myvolume`.
+  * Modify the code within the Docker container. Before the execution of the code sample, you could alter the script using built-in editor (i.e. nano/vim). **Please note** that any modification inside of the container will be lost when the container is terminated. The Docker container is more of an ephemeral environment. 
+
+  * Mount the host filesystem into the Docker container as a volume (see [Use Bind Mounts](https://docs.docker.com/storage/bind-mounts/)). For example in macOS, when launching the container you can include `-v /mypath:/myvolume` to make `/mypath` from the host available in the container as `/myvolume`. Any files created/modified in `/mypath` will persists even after the container is terminated. 
 
 
-2. How can I connect the example code to MongoDB running on my machine ?
+#### 2. How can I connect the example code to MongoDB running on my machine ?
 
-If you choose to run a local `mongod` on your machine (the Docker host), you can connect to it from the `get-started` Docker container by setting `MONGODB_URL` to `mongodb://host.docker.internal:27017/`. 
+You can connect to a local `mongod` from the `get-started` Docker container by setting `MONGODB_URL` to `mongodb://host.docker.internal:27017/`. 
+
 
