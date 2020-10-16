@@ -53,7 +53,7 @@ A `Dockerfile` to build a working environment Docker image.
 
 This should:
 
-  * Use Ubuntu 18.04 LTS as base
+  * Use Ubuntu 20.04 LTS as base
   * Only expose ports that are required by the image
   * Use `/home/ubuntu` as the working directory
   * Keep dependencies minimal ( for size )
