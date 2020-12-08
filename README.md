@@ -18,11 +18,11 @@ Each Get-Started repository includes:
 ## List of Get-Started repositories:
 
 * [get-started-csharp](https://github.com/mongodb-developer/get-started-csharp)
+* [get-started-cxx](https://github.com/mongodb-developer/get-started-cxx)
 * [get-started-go](https://github.com/mongodb-developer/get-started-go)
 * [get-started-java](https://github.com/mongodb-developer/get-started-java)
 * [get-started-nodejs](https://github.com/mongodb-developer/get-started-nodejs)
 * [get-started-scala](https://github.com/mongodb-developer/get-started-scala)
-* [get-started-cxx](https://github.com/mongodb-developer/get-started-cxx)
 
 ## How To Contribute
 
