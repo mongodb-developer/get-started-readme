@@ -24,7 +24,7 @@ Each Get-Started repository includes:
 * [get-started-scala](https://github.com/mongodb-developer/get-started-scala)
 * [get-started-cxx](https://github.com/mongodb-developer/get-started-cxx)
 
-## How To Contribute 
+## How To Contribute
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for contributing guidelines.
 
@@ -43,4 +43,32 @@ Generally there are two ways to modify the sample code:
 
 You can connect to a local `mongod` from the `get-started` Docker container by setting `MONGODB_URI` to `mongodb://host.docker.internal:27017/`. 
 
+## Alternative Method 
 
+### Visual Studio Code - Remote 
+
+Only the following repositories are available with VSCode - Remote: 
+
+* [get-started-go](https://github.com/mongodb-developer/get-started-go)
+
+If you are familiar with VSCode, you could build using [Visual Studio Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview).
+
+Pre-requisite: Install [Microsoft VS Code Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+#### Steps 
+
+1. Git clone a Get-Started repository i.e. `get-started-go`
+
+2. In the root directory level of the repository you should find `./config.env`. Use an editor to open the file, and: 
+   * Specify `MONGODB_URI` value
+   * (Optional) Specify `DRIVER_VERSION` value to use a different driver version than the default
+
+3. With VS Code editor open, press `Cmd+Shift+P` to bring up the `Command Palette` and type in `open folder` and choose `Remote-Containers: Open Folder in Container...`
+
+4. You should see a progress bar while VS Code is building the Docker image
+
+#### Execution Steps
+
+Once the build completed, choose `Run` menu then choose `Run Without Debugging` (default `Ctrl + F5`) to execute the code
+
+See [VS Code Remote: FAQ](https://code.visualstudio.com/docs/remote/faq) for more information. 
