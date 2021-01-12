@@ -32,7 +32,9 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for contributing guidelines.
 
 #### 1. How do I modify the sample code ?
 
-Generally there are two ways to modify the sample code:
+If you're using the helper script `get-started.sh` to start the container, then you could just modify the code in the checked out repo location with your preferred editor.
+
+If you are not using the helper script, generally there are two ways to modify the sample code:
 
   * Modify the code within the Docker container. Before the execution of the code sample, you could alter the script using built-in editor (i.e. nano/vim). **Please note** that any modification inside of the container will be lost when the container is terminated. The Docker container is more of an ephemeral environment. 
 
