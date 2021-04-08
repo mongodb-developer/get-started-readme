@@ -8,12 +8,11 @@ The following is a set of guidelines for contributing to the Get-Started project
 ## Project Goal
 
 The MongoDB Get-Started project helps set up local development environments to run
-applications using [official MongoDB drivers](https://docs.mongodb.com/ecosystem/drivers/).
+applications using [official MongoDB drivers](https://docs.mongodb.com/ecosystem/drivers/) and [MongoDB Cloud products](https://www.mongodb.com/cloud)
 
 Each Get-Started repository includes:
  - instructions on how to install prerequisites
  - working code examples demonstrating some basic CRUD (Create/Retrieve/Update/Delete)
-   and aggregation commands
  - links to relevant tutorials and documentation from MongoDB
 
 ## Project Structure
@@ -29,7 +28,7 @@ A `README.md` file to provide information related to the environmentL
       * How to start a Docker image with development prerequisites installed
       
   * Links to relevant MongoDB Blog Quick Start series posts (if any)
-  * Links to relevant MongoDB driver reference documentation
+  * Links to relevant MongoDB documentation
   * Links to MongoDB Atlas free-tier sign-up
 
 ### LICENSE
@@ -53,15 +52,14 @@ A `Dockerfile` to build a working environment Docker image.
 
 This should:
 
-  * Use Ubuntu 20.04 LTS as base
+  * Use Alpine 3.13 (preferred) or Ubuntu 20.04 LTS as base. 
   * Only expose ports that are required by the image
-  * Use `/home/ubuntu` as the working directory
+  * Use `/home/${USER}` as the working directory
   * Keep dependencies minimal ( for size )
-  * Expose a build `ARG` called `DRIVER_VERSION` to allow an easy way to change the driver version
 
 ### Miscellaneous
 
-For consistency, the Docker environment should have `nano` and `vim` editors installed.
+Use [GitHub Container Registry](https://docs.github.com/en/packages/guides/about-github-container-registry) to store pre-built Docker images. 
 
 ## Pull Requests are always welcome
 
