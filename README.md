@@ -21,6 +21,8 @@ Each Get-Started repository includes:
 * [get-started-go](https://github.com/mongodb-developer/get-started-go)
 * [get-started-java](https://github.com/mongodb-developer/get-started-java)
 * [get-started-nodejs](https://github.com/mongodb-developer/get-started-nodejs)
+* [get-started-php](https://github.com/mongodb-developer/get-started-php)
+* [get-started-ruby](https://github.com/mongodb-developer/get-started-ruby)
 * [get-started-scala](https://github.com/mongodb-developer/get-started-scala)
 * [get-started-realm-web](https://github.com/mongodb-developer/get-started-realm-web)
 
