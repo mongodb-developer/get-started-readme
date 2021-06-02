@@ -39,3 +39,8 @@ If you're using the helper script `get-started.sh` to start the container, then 
 #### 2. How can I connect the example code to MongoDB running on my machine ?
 
 You can connect to a local `mongod` from the `get-started` Docker container by setting `MONGODB_URI` to `mongodb://host.docker.internal:27017/`. Please note that connecting to a replica-set members locally may require changes to the host DNS. 
+
+## Disclaimer
+
+This software is not supported by `MongoDB, Inc. <https://www.mongodb.com>`__
+under any of their commercial support subscriptions or otherwise. Any usage is at your own risk.
