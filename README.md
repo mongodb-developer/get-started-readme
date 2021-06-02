@@ -42,5 +42,5 @@ You can connect to a local `mongod` from the `get-started` Docker container by s
 
 ## Disclaimer
 
-This software is not supported by `MongoDB, Inc. <https://www.mongodb.com>`__
+This software is not supported by [MongoDB, Inc](https://www.mongodb.com)
 under any of their commercial support subscriptions or otherwise. Any usage is at your own risk.
